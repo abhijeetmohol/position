@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			position-div
+		</title>
+		<link rel="icon" type="image/x-icon" href="https://www.emvco.com/wp-content/uploads/2020/09/Introducing-Click-to-Pay-icon-Featured-Image.png">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+			}
+			.main-wrapper{
+				margin:0px auto;
+				background-color:#d6eaf8;
+				width:498px;
+				height:498px;
+				position:relative;
+				border:1px solid black;
+			}
+			.middle-div{
+				position:absolute;
+				width:98px;
+				height:98px;
+				background-color:#aed6f1;
+				top:50%;
+				left:50%;
+				transform: translate(-50%,-50%);
+				border:1px solid black;	
+				z-index:9;
+			}
+			.top-right{
+				background-color:#7fb3d5;
+				width:248px;
+				height:248px;
+				position:absolute;
+				left:50%;
+				border:1px solid black;
+				border-top:0px;
+			}
+			.internal-div{
+				width:100px;
+				height:100px;
+				background-color:#a9cce3;
+				position:static;
+				
+			}
+			.bottom-left{
+				background-color:#7fb3d5;
+				width:248px;
+				height:248px;
+				position:absolute;
+				top:50%;
+				border:1px solid black;
+				border-left:0px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="main-wrapper">
+				<div class="middle-div">
+					<img src="https://i.pinimg.com/originals/a1/77/df/a177dfc84703c31afa0d501ccf43fe4f.gif" width="98px" height="98.5px">
+				</div>
+				<div class="top-right">
+					<div class="internal-div">
+					</div>
+				</div>
+				<div class="bottom-left">
+				</div>
+				
+		</div>
+	</body>
+</html>
